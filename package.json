@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-plugin-json-pages",
+  "name": "@binghamchris/gatsby-plugin-json-pages",
   "version": "1.0.0",
   "description": "Create JSON only pages at Gatsby build time.",
   "main": "index.js",
@@ -11,7 +11,17 @@
     "graphql",
     "pages"
   ],
-  "repository": "notrab/gatsby-plugin-json-pages",
-  "author": "Jamie Barton <jamie@notrab.dev>",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binghamchris/gatsby-plugin-json-pages.git"
+  },
+  "author": "Jamie Barton",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/binghamchris/gatsby-plugin-json-pages/issues"
+  },
+  "homepage": "https://github.com/binghamchris/gatsby-plugin-json-pages#readme"
 }
